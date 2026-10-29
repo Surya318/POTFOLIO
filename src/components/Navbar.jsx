@@ -11,7 +11,7 @@ export default function Navbar({ theme, toggleTheme }) {
     const handleScroll = () => {
       setScrolled(window.scrollY > 20);
 
-      const sections = ['hero', 'about', 'skills', 'projects', 'experience', 'education', 'contact'];
+      const sections = ['hero', 'about', 'skills', 'projects', 'experience', 'education', 'certificates', 'contact'];
       const scrollPosition = window.scrollY + 200;
 
       for (const sectionId of sections) {
@@ -38,6 +38,7 @@ export default function Navbar({ theme, toggleTheme }) {
     { id: 'projects', label: 'Projects' },
     { id: 'experience', label: 'Experience' },
     { id: 'education', label: 'Education' },
+    { id: 'certificates', label: 'Certificates' },
     { id: 'contact', label: 'Contact' },
   ];
 

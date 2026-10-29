@@ -87,6 +87,37 @@ export const portfolioData = {
       tags: ["Python", "FastAPI", "SQL", "JWT", "Swagger UI"],
       github: "https://github.com/Surya318",
       demo: "#"
+    },
+    {
+      title: "Personal Portfolio Website",
+      subtitle: "Modern React.js Developer Portfolio",
+      description: "Designed and built a responsive React.js portfolio website showcasing projects, technical skills, and achievements with dark/light theme support on desktop and mobile.",
+      tags: ["React.js", "JavaScript", "HTML5", "CSS3", "Vite"],
+      github: "https://github.com/Surya318/POTFOLIO",
+      demo: "https://github.com/Surya318/POTFOLIO"
+    }
+  ],
+
+  certificates: [
+    {
+      title: "Artificial Intelligence Course (Grade A+)",
+      issuer: "Rinex Organization, Skill India / NSDC",
+      badge: "Grade A+"
+    },
+    {
+      title: "Basics of Python",
+      issuer: "Rinex Organization",
+      badge: "Certified"
+    },
+    {
+      title: "AI Skills Passport",
+      issuer: "EY and Microsoft",
+      badge: "Credential"
+    },
+    {
+      title: "Enterprise Design Thinking Practitioner",
+      issuer: "IBM SkillsBuild",
+      badge: "Practitioner"
     }
   ],
 
